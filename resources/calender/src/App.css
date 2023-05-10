@@ -1,0 +1,96 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+.holiday,
+.weekend {
+    background-color: red;
+    color: white;
+}
+.noholiday {
+    background-color: #ffff76;
+}
+
+.calendar-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.calendar-container .text-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.react-calendar .react-calendar__month-view__days__day {
+    padding: 10px 10px;
+    font-size: 20px;
+    pointer-events: fill;
+    border: 1px solid #282c34;
+}
+.react-calendar {
+    font-size: 20px;
+    pointer-events: fill;
+    margin-top: 3%;
+}
+
+.react-calendar .react-calendar__month-view__days__day:hover {
+    background-color: #c8adad;
+}
+
+.react-calendar__navigation .react-calendar__navigation__arrow {
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #525252;
+    color: #fff;
+    border: 1px solid pink;
+}
+.react-calendar__navigation .react-calendar__navigation__label {
+    padding: 10px;
+    font-size: 20px;
+    background: #525252;
+    color: #fff;
+}
+.react-calendar
+    .react-calendar__month-view__weekdays
+    .react-calendar__month-view__weekdays__weekday {
+    padding: 15px 0;
+    background: #47d578;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #282c34;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}

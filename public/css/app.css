@@ -1,0 +1,502 @@
+select,
+button {
+    background-color: unset;
+    border-radius: 5px;
+    color: black;
+}
+
+option {
+    background-color: unset;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+th,
+td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.add-usercss {
+    margin-left: 0%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+
+.add-attendancecss {
+    margin-left: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.add-usercss2 {
+    width: 80%;
+}
+
+.add-usercss3 {
+    width: 85%;
+}
+.add-usercss4 {
+    width: 100%;
+}
+
+.table-add-usercss {
+    width: 100%;
+}
+.table-add-usercss2 {
+    width: 100%;
+}
+
+.btn-green {
+    background-color: rgb(150, 224, 39);
+    color: black;
+    border-color: darkblue;
+    padding: 1%;
+    border-radius: 3%;
+}
+
+.leave-requestcss {
+    width: 45%;
+}
+
+.leavecss {
+    margin-left: 0%;
+    padding: 2.5%;
+}
+
+.monthcss {
+    padding-left: 5%;
+}
+.holidaycss {
+    margin: 3%;
+}
+.buttonattendencecss {
+    border: 1px solid;
+    margin: 5px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: lightblue;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.table-responsive {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+/* Styles for screens with a maximum width of 640px */
+@media only screen and (max-width: 640px) {
+    .container {
+        padding: 0;
+    }
+    .add-usercss {
+        flex-direction: column;
+    }
+
+    .add-usercss2 {
+        width: 100%;
+    }
+}
+
+/* Styles for screens with a minimum width of 641px */
+@media only screen and (min-width: 641px) {
+    .container {
+        max-width: 960px;
+    }
+    .add-usercss {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .sm\:max-w-md {
+        max-width: 28rem;
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+.flex {
+    align-items: center;
+}
+
+.adduserbutton {
+    margin-left: -1%;
+}
+
+.leave_css {
+    margin-left: 0%;
+    padding: 4%;
+    width: auto;
+}
+
+.leaveReq_css {
+    margin-left: 0%;
+    padding-left: 4%;
+    width: 96%;
+}
+
+.leave_css2 {
+    margin-left: 0%;
+    padding: 4%;
+    width: 70%;
+}
+.leave_css1 {
+    margin-left: 0%;
+    width: 80%;
+    padding-left: 4%;
+}
+.leaveReq_css {
+    margin-left: 0%;
+    padding-left: 4%;
+    width: 96%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: rgba(233, 230, 230, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.grid-itemalign {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+.green {
+    color: green;
+}
+
+.table-responsive2 {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.table-responsive3 {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.navigation {
+    background-color: #106d00;
+    color: white;
+    padding: 1%;
+}
+
+.navigationcolor {
+    color: rgb(238, 237, 237) !important;
+    font-size: 20px !important;
+}
+
+@media (max-width: 900px) {
+    .navigationcolor {
+        color: rgb(247, 246, 246) !important;
+        font-size: 10px !important;
+    }
+    .shrink-0 {
+        /* width: 50%; */
+        padding-left: 5%;
+    }
+    .navigationcolor2 {
+        color: white !important;
+    }
+}
+@media screen and (min-width: 641px) {
+    .hamburger {
+        display: none;
+    }
+
+    .max-w-md {
+        max-width: 28rem;
+        margin-left: 10vw;
+    }
+    .navigationcolor {
+        color: rgb(248, 240, 240) !important;
+    }
+    .navigationcolor2 {
+        color: white !important;
+    }
+    .shrink-0 {
+        /* width: 50%; */
+        padding-left: 15%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 900px) {
+    .hamburger {
+        display: none;
+    }
+
+    .max-w-md {
+        max-width: 28rem;
+        margin-left: 10vw;
+    }
+    .navigationcolor {
+        color: white !important;
+    }
+    .navigationcolor2 {
+        color: white !important;
+    }
+}
+
+@media (min-width: 900px) {
+    .sm\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+#page-content-wrapper {
+    min-width: 100vw;
+}
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+.btn-primary {
+    color: #fff;
+    background-color: #03801e !important;
+    border-color: #00ff14 !important;
+}
+.Tooglebutton {
+    margin: 5px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.5rem;
+    background-color: #106d00;
+    color: white;
+}
+
+.list-group-flush > .list-group-item {
+    width: 15rem;
+    background-color: #03801e !important;
+    color: white;
+}
+#sidebar-wrapper .list-group {
+    text-align: -webkit-center;
+}
+#sidebar-wrapper {
+    background-color: #03801e;
+}
+.navl:hover {
+    color: white !important;
+    background-color: #152115 !important;
+}
+
+/* new css for other tables */
+table {
+    border: 1px solid #ccc !important;
+    border-collapse: collapse !important;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+}
+
+table th,
+table td {
+    padding: 0.625em;
+}
+
+table th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+    table {
+        border: 0;
+        width: 100%;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: 0.625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 0.8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+@media screen and (max-width: 1220px) and (min-width: 901px) {
+    table td {
+        border-bottom: 1px solid #ddd;
+        font-size: 0.8em;
+    }
+    table th {
+        border-bottom: 1px solid #ddd;
+        font-size: 0.8em;
+    }
+}
+
+input {
+    width: -webkit-fill-available;
+}
+
+td {
+    width: -webkit-fill-available;
+}
+
+.dropdown {
+    margin-left: 30% !important;
+}
+/* Styles for screens with a maximum width of 900px */
+@media screen and (max-width: 900px) {
+    /* Hide the hamburger2 element */
+    .hamburger2,
+    #sidebar-wrapper {
+        display: none;
+    }
+}
+
+.sidebar-heading {
+    padding-left: 25% !important;
+}
+
+.ProfilePic {
+    border-radius: 50%;
+    padding: 5%;
+}
